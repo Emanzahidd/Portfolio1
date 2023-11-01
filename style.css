@@ -378,3 +378,127 @@ body {
     width: 290px;
     height: 2px; 
 }
+
+/*Contact form*/ 
+.contactme {
+    width: 375px;
+    height: 779px;
+    margin-top: 300x;
+    background-image: url('Contact\ me.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.contactme h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    word-wrap: break-word;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -30px;
+}
+
+.contactme p {
+    color: #ebebff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contactme form input {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: white;
+    width: 327px;
+    height: 48px;
+    margin-left: 24px;
+    margin-top: 13px;
+}
+
+.contactme form textarea {
+    font-family: 'Poppins', sans-serif;
+    width: 327px;
+    height: 170px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: white;
+    margin-left: 24px;
+    margin-top: 13px;
+}
+
+.contactme form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 117.647% */
+    padding-left: 10px;
+    color: #999;
+}
+
+.contactme form textarea::placeholder {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #999;
+}
+
+.contactme form button {
+    height: 48px;
+    width: 142px;
+    color: #6070ff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 141.176% */
+    letter-spacing: 0.51px;
+    border-radius: 8px;
+    border: #fff;
+    margin-left: -310px;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.contact form  button:hover {
+    background-color: #7a869a;
+}
+
+.contactme .circle {
+    margin-top: -10px;
+    margin-left: 152px;
+}
+
+.contactme .ellipse {
+    margin-top: -43px;
+    margin-left: 328px;
+}
+
+.contactme .rectangle {
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+.contactme form .rectangle2 {
+    margin-left: 260px;
+    margin-top: -5px;
+}
+
+.contactme form .circle2 {
+    margin-left : 85px;
+}
