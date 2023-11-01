@@ -101,8 +101,9 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 24px;
-    word-wrap: break-word;
+  word-wrap: break-word;
 }
+
 /*Section 2*/
 .worksection{
     display: grid;
@@ -370,10 +371,11 @@ body {
 .contactme {
     width: 375px;
     height: 779px;
-    margin-top: 200x;
+    margin-top: 120px;
+    margin-left: -42px;
     background-image: url('Contact\ me.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
     padding-bottom: 45px;
 }
 
@@ -412,7 +414,7 @@ body {
     background: white;
     width: 327px;
     height: 48px;
-    margin-left: 24px;
+    margin-left: 20px;
     margin-top: 13px;
 }
 
@@ -424,7 +426,7 @@ body {
     border-radius: 8px;
     border: 1px solid white;
     background: white;
-    margin-left: 24px;
+    margin-left: 20px;
     margin-top: 13px;
 }
 
@@ -458,7 +460,7 @@ body {
     letter-spacing: 0.51px;
     border-radius: 8px;
     border: #fff;
-    margin-left: -310px;
+    margin-left: -313px;
     background-color: white;
     margin-top: 0px;
 }
@@ -488,6 +490,5 @@ body {
 }
 
 .contactme form .circle2 {
-    margin-left : 85px;
+    margin-right: -100px;
 }
-
